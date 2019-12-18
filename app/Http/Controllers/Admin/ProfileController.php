@@ -7,7 +7,11 @@ use App\Http\Controllers\Controller;
 
 class ProfileController extends Controller
 {
+<<<<<<< HEAD
   // 以下を追記
+=======
+    // 以下を追記
+>>>>>>> a5692f5effbcd134e2afedabc1394b612c1a9d7a
   public function add()
   {
       return view('admin.profile.create');
